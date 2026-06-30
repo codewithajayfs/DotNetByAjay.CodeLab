@@ -1,3 +1,11 @@
 <Solution>
+  <Folder Name="/MicroservicesApplication/" />
+  <Folder Name="/MicroservicesApplication/Microservices/">
+    <Project Path="Microservice.Product.API/Microservice.Product.API.csproj" Id="8269b8d2-7008-430f-b5bf-31ca15c227d8" />
+  </Folder>
+  <Folder Name="/MicroservicesApplication/UIApp/">
+    <Project Path="Shopping.Web/Shopping.Web.csproj" Id="1c8c7029-8f3d-432b-b761-d070d8128575" />
+  </Folder>
   <Project Path="DesignPattern.Creational/DesignPattern.Creational.csproj" />
+  <Project Path="Web.Authorization.Net10/Web.Authorization.Net10.csproj" Id="5bdaea93-39e2-4b2f-9589-6b36e39d6956" />
 </Solution>
