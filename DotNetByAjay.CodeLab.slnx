@@ -1,5 +1,6 @@
 <Solution>
   <Folder Name="/MicroservicesApplication/" />
+  <Folder Name="/MicroservicesApplication/Documents/" />
   <Folder Name="/MicroservicesApplication/Microservices/">
     <Project Path="Microservice.Product.API/Microservice.Product.API.csproj" Id="8269b8d2-7008-430f-b5bf-31ca15c227d8" />
   </Folder>

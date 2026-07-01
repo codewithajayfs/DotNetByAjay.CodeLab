@@ -1,0 +1,5 @@
+CREATE DATABASE ProductMSDB;
+GO
+
+Use ProductMSDB;
+GO
