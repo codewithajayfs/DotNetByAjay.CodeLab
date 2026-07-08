@@ -7,6 +7,20 @@
   <Folder Name="/MicroservicesApplication/UIApp/">
     <Project Path="Shopping.Web/Shopping.Web.csproj" Id="1c8c7029-8f3d-432b-b761-d070d8128575" />
   </Folder>
+  <Folder Name="/SOLID/" />
+  <Folder Name="/SOLID/1_SRP/">
+    <Project Path="SOLID.SRP/SOLID.SRP.csproj" Id="ed98ed88-4e1d-429d-938a-32d06f55c8bf" />
+  </Folder>
+  <Folder Name="/SOLID/2_OCP/">
+    <Project Path="SOLID.OCP/SOLID.OCP.csproj" Id="d7e2b3fb-c58e-40b0-bdb0-df0fcee9314e" />
+  </Folder>
+  <Folder Name="/SOLID/3_LSP/">
+    <Project Path="SOLID.LSP/SOLID.LSP.csproj" Id="0aa1ef5d-f67c-41f7-a821-b718516a1447" />
+  </Folder>
+  <Folder Name="/SOLID/4_ISP/">
+    <Project Path="SOLID.ISP/SOLID.ISP.csproj" Id="2937e9db-d98a-43ee-80e0-726f022c39af" />
+  </Folder>
+  <Folder Name="/SOLID/5_DIP/" />
   <Project Path="DesignPattern.Creational/DesignPattern.Creational.csproj" />
   <Project Path="Web.Authorization.Net10/Web.Authorization.Net10.csproj" Id="5bdaea93-39e2-4b2f-9589-6b36e39d6956" />
 </Solution>
