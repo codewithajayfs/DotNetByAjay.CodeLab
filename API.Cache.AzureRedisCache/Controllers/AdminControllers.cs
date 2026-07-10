@@ -21,12 +21,18 @@ namespace API.Cache.AzureRedisCache.Controllers
         public IEnumerable<string> GetAppAdminList()
         {
             IEnumerable<string> appAdmins = new List<string>();
+
+            // If we don't have admin list in cache, then fetch it from database
             if (string.IsNullOrEmpty(_cache.GetString("ListOfAdmins")))
             {
                 appAdmins = GetAppAdmins();
-                _cache.SetString("ListOfAdmins", JsonConvert.SerializeObject(appAdmins));
+                
+                // Cache Miss Rate - Everytime you are not finding record in cache, it means there is Cache Miss
+                // For testing commented below code, now everytime data will fetch from database
+                // _cache.SetString("ListOfAdmins", JsonConvert.SerializeObject(appAdmins));
                 return appAdmins;
             }
+            // else fetch it from Redis cache
             else
             {
                 var appAdminSerialized = _cache.GetString("ListOfAdmins");
