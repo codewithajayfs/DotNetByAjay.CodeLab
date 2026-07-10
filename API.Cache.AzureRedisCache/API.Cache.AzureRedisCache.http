@@ -1,0 +1,6 @@
+@API.Cache.AzureRedisCache_HostAddress = http://localhost:5087
+
+GET {{API.Cache.AzureRedisCache_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
