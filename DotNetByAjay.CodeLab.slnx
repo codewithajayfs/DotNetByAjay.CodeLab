@@ -23,6 +23,8 @@
   <Folder Name="/SOLID/5_DIP/" />
   <Project Path="API.Cache.AzureRedisCache/API.Cache.AzureRedisCache.csproj" />
   <Project Path="Console.CSharp12/Console.CSharp12.csproj" />
+  <Project Path="Console.CSharpProgram/Console.CSharpProgram.csproj" />
+  <Project Path="Console.Variables/Console.Variables.csproj" />
   <Project Path="DesignPattern.Creational/DesignPattern.Creational.csproj" />
   <Project Path="Web.Authorization.Net10/Web.Authorization.Net10.csproj" Id="5bdaea93-39e2-4b2f-9589-6b36e39d6956" />
 </Solution>
