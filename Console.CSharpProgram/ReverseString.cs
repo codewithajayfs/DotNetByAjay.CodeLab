@@ -10,7 +10,6 @@ namespace Console.CSharpProgram
     {
         public string ReverseWordWithSpace(string input)
         {
-
             string[] words = input.Split();
             StringBuilder output = new();
 
@@ -24,6 +23,25 @@ namespace Console.CSharpProgram
             }
 
             return output.ToString().TrimEnd();
+        }
+
+        public string ReverseEntireString(string input)
+        {
+            string output = "";
+            for (int i = input.Length - 1; i >= 0; i--)
+            {
+                output += input[i];
+            }
+
+            return output;
+        }
+
+        public string ReverseStringUsingBuiltInFunction(string input)
+        {
+            char[] charArray = input.ToCharArray();
+            Array.Reverse(charArray);
+
+            return new string(charArray);
         }
     }
 }
