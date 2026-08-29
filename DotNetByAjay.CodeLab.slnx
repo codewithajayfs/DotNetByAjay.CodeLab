@@ -1,4 +1,9 @@
 <Solution>
+  <Folder Name="/DesignPattern/" />
+  <Folder Name="/DesignPattern/Behavioural/">
+    <Project Path="DesignPattern/Behavioural/DesignPattern.ChainOfResponsibility/DesignPattern.ChainOfResponsibility.csproj" />
+    <Project Path="DesignPattern/Behavioural/DesignPattern.Strategy/DesignPattern.Strategy.csproj" />
+  </Folder>
   <Folder Name="/MicroservicesApplication/" />
   <Folder Name="/MicroservicesApplication/Documents/" />
   <Folder Name="/MicroservicesApplication/Microservices/">
@@ -22,8 +27,10 @@
   </Folder>
   <Folder Name="/SOLID/5_DIP/" />
   <Project Path="API.Cache.AzureRedisCache/API.Cache.AzureRedisCache.csproj" />
+  <Project Path="API.Interview.WinWire/API.Interview.WinWire.csproj" />
   <Project Path="Console.CSharp12/Console.CSharp12.csproj" />
   <Project Path="Console.CSharpProgram/Console.CSharpProgram.csproj" />
+  <Project Path="Console.Threading/Console.Threading.csproj" />
   <Project Path="Console.Variables/Console.Variables.csproj" />
   <Project Path="CSharpBasic.01_Constants/CSharpBasic.01_Constants.csproj" />
   <Project Path="CSharpBasic.02_Variables/CSharpBasic.02_Variables.csproj" />
