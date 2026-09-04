@@ -17,7 +17,7 @@ Passionate about building scalable applications with C#, .NET, Angular, Azure, a
 
 * **Website:** https://www.ajaygangwar.com
 * **GitHub:** https://github.com/codewithajayfs
-* **LinkedIn:** https://www.linkedin.com/in/vaibhav-gangwar-developer/
+* **LinkedIn:** https://www.linkedin.com/in/ajayapril1991/
 
 ### 📚 About This Repository
 
