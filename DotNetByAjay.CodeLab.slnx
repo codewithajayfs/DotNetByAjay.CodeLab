@@ -4,6 +4,9 @@
     <Project Path="DesignPattern/Behavioural/DesignPattern.ChainOfResponsibility/DesignPattern.ChainOfResponsibility.csproj" />
     <Project Path="DesignPattern/Behavioural/DesignPattern.Strategy/DesignPattern.Strategy.csproj" />
   </Folder>
+  <Folder Name="/LeetCode/">
+    <Project Path="LeetCode/LeetCode_P13_RomanToInt/LeetCode_P13_RomanToInt.csproj" />
+  </Folder>
   <Folder Name="/MicroservicesApplication/" />
   <Folder Name="/MicroservicesApplication/Documents/" />
   <Folder Name="/MicroservicesApplication/Microservices/">
